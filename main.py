@@ -1,5 +1,6 @@
 from valentine import ValentinesDay
 from flowers import Rose, Baby_breath, Daisies
+from mothersday import MothersDay
 
 '''
 Uncle Jake (a.k.a. Jake Mendenhyll) opened his flower shop in 1972, at the height of the Flower Power cultural phenomenon. Since then, his two daughters, and 1 grandson have joined him in running the shop.
@@ -47,7 +48,9 @@ for_beth.flowers = red_rose
 for_beth.flowers = blue_rose
 for_beth.flowers = pink_rose
 daisy = Daisies("4 Inches", "Non-refrigerated")
-for_beth.flowers = daisy
+for_sam = MothersDay()
+
+for_sam.flowers = daisy
 
 
 

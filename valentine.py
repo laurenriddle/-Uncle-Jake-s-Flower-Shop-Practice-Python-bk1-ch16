@@ -21,7 +21,7 @@ class ValentinesDay(Arrangement):
     @flowers.setter # The flower setter
     def flowers(self, new_flowers):
         # if new_flowers.container == "refrigerated":
-        if self.theme == Love:
+        if new_flowers.theme == "Love":
             self.enhance(new_flowers)
         else:
             raise TypeError('That type of flower cannot be put into this arrangement')
